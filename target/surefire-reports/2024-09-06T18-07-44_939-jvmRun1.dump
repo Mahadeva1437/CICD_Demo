@@ -1,0 +1,15 @@
+# Created at 2024-09-06T18:08:03.499
+java.lang.NoSuchMethodError: 'void org.testng.reporters.Files.writeFile(java.lang.String, java.io.File)'
+	at com.github.internal.Utils.writeToFile(Utils.java:86)
+	at com.github.testng.MetricsListener.generateReport(MetricsListener.java:40)
+	at org.testng.TestNG.generateReports(TestNG.java:1160)
+	at org.testng.TestNG.run(TestNG.java:1085)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+
